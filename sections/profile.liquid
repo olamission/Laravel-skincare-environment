@@ -8,6 +8,29 @@
 {% schema %}
   {
     "name": "Profile",
+    "tag": "section",
+    "class": "slideshow",
+    "max_blocks": 5,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Slideshow"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Slide",
+        "type": "slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
         "name": "Slideshow",
@@ -23,8 +46,5 @@
         ]
       }
     ]
-
-
-
   }
 {% endschema %}
