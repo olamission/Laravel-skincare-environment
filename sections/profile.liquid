@@ -1,8 +1,9 @@
 {%
    ###############################
- # You must add a schema between the lines
- # across multiple lines
- ############################### %}
+   # You must add a schema between the lines
+   # across multiple lines
+   ############################### %}
+
 
 
 {% schema %}
@@ -10,7 +11,7 @@
     "name": "Slideshow",
     "tag": "section",
     "class": "slideshow",
-    "max_blocks": 5,
+    "limit": 1,
     "settings": [
       {
         "type": "text",
@@ -18,6 +19,7 @@
         "label": "Slideshow"
       }
     ],
+    "max_blocks": 5,
     "blocks": [
       {
         "name": "Slide",
@@ -45,6 +47,14 @@
           }
         ]
       }
-    ]
+    ],
+    "locales": {
+      "en": {
+        "title": "Slideshow"
+      },
+      "fr": {
+        "title": "Diaporama"
+      }
+    }
   }
 {% endschema %}
