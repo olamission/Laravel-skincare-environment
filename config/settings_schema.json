@@ -8,6 +8,19 @@
     "theme_support_url": "https://support.shopify.com/"
   },
   {
+    "name":"Shopping Cart",
+    "settings" : [{
+      "type": "header",
+      "content" : "Shopping Cart"
+    },
+    {
+      "type" : "text",
+      "id" : "test_data",
+      "Label" : "Test Data"
+    }
+  ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {

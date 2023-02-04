@@ -1,0 +1,1 @@
+You can add a new theme settings by going onto settings schema .json
