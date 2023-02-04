@@ -2,51 +2,15 @@
    ###############################
  # You must add a schema between the lines
  # across multiple lines
+ # below is the div tag responsible for putting the schema into the actual website
  ############################### %}
-
+<div>
+    <h3>
+        {{section.settings.user_name}}
+    </h3>
+</div>
 
 {% schema %}
-  /*{
-    "name": "Profile",
-    "tag": "section",
-    "class": "Profile",
-    "max_blocks": 5,
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Profile"
-      }
-    ],
-    "blocks": [
-      {
-        "name": "Slide",
-        "type": "slide",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Profile",
-        "settings": {
-          "title": "Profile"
-        },
-        "blocks": [
-          {
-            "type": "slide"
-          }, {
-            "type": "slide"
-          }
-        ]
-      }
-    ]
-  }*/
   { 
     "name" : "Profile",
     /*When added this is the name of the section */
@@ -70,7 +34,7 @@
     /* 
     Label is the title that will be shown
     type is the type of input/output data that will be shown 
-    id id the id of the "block"
+    id id the id of the data and is used when refering to the block using html
         */
   /* settings is the options that you will see when adding a user profile eg
    header will show a search bar where you would like to add your header into
