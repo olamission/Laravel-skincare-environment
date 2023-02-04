@@ -11,4 +11,28 @@ You can add a new theme settings by going onto settings schema .json
   },
 
 
-This is the synax to create a header fpr shopping cart
+This is the synax to create a header for shopping cart
+
+{
+    "name": "Shopping Cart",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Shopping Cart"
+      },
+      {
+        "type" : "text",
+        "id" : "test_data",
+        "label" : "Test Data"
+      }
+    ]
+  },
+
+  This shows a header with Shopping Cart
+   but if you click inside it shows a text box with the label test data
+   make sure to save after adding the new data point
+
+To write down any data point added you can go to profile.liquid or theme.liquid to add the data 
+{{settings.test_data}}
+
+It is also saved in settings_data.json
