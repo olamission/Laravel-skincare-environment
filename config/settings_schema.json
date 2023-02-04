@@ -19,7 +19,14 @@
       "id" : "test_data",
       "Label" : "Test Data"
       }
-    ]
+    ],
+    "presets" : [
+      {
+          "category":"Shopping Cart",
+          "name": "Shopping Cart"
+          
+      }
+  ]
   },
   {
     "name": "t:settings_schema.colors.name",
