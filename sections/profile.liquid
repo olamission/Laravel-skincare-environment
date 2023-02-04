@@ -52,16 +52,34 @@
     /*When added this is the name of the section */
     "settings": [
     {
-      "type": "text",
-      "id": "header",
-      "label": "Profile Settings"
+    "type" : "image_picker",
+    "id" : "user_img",
+    "label" : "User Photo"
+    },
+    {
+    "type" : "text",
+    "id" : "user_name",
+    "label" : "User Name"
+    },
+    {
+    "type" : "richtext",
+    "id" : "user_bio",
+    "label" : "User Bio"
     }
   ],
-  /* settings is the options that you will see when adding a user profile*/
+    /* 
+    Label is the title that will be shown
+    type is the type of input/output data that will be shown 
+    id id the id of the "block"
+        */
+  /* settings is the options that you will see when adding a user profile eg
+   header will show a search bar where you would like to add your header into
+   You will need an accept button potentially in the content section*/
     "presets" : [
         {
             "category":"Profile",
-            "name": "User Profile"/* actual name of the section on the add section part at the bottom of screen*/
+            "name": "User Profile"
+            /* actual name of the section on the add section part at the bottom of screen*/
         }
     ]
   }
