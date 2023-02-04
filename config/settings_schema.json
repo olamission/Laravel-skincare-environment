@@ -9,16 +9,17 @@
   },
   {
     "name":"Shopping Cart",
-    "settings" : [{
+    "settings" : [
+      {
       "type": "header",
       "content" : "Shopping Cart"
-    },
-    {
+      },
+      {
       "type" : "text",
       "id" : "test_data",
       "Label" : "Test Data"
-    }
-  ]
+      }
+    ]
   },
   {
     "name": "t:settings_schema.colors.name",
