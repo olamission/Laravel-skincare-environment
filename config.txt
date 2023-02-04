@@ -1,1 +1,14 @@
 You can add a new theme settings by going onto settings schema .json
+
+{
+    "name": "Shopping Cart",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Shopping Cart"
+      }
+    ]
+  },
+
+
+This is the synax to create a header fpr shopping cart
