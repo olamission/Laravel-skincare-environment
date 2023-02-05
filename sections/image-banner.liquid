@@ -111,7 +111,7 @@
     </div>
   </div>
 </div>
-
+<img src="{{ section.settings.image_award | img_url: "300x300" }}" alt="profile image">
 {% schema %}
   {
     "name": "t:sections.image-banner.name",
@@ -387,7 +387,7 @@
         "settings": [
           {
             "type": "image_picker",
-            "id": "image",
+            "id": "image_award",
             "label": "t:sections.image-banner.settings.image.label"
           },
           {
