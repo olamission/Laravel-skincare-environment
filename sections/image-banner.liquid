@@ -110,8 +110,10 @@
       {%- endfor -%}
     </div>
   </div>
+  <div class="t:sections.image-banner.name"><img src="{{ section.settings.image_award | img_url: "300x300" }}" alt="profile image"></div>
+
 </div>
-<img src="{{ section.settings.image_award | img_url: "300x300" }}" alt="profile image">
+
 {% schema %}
   {
     "name": "t:sections.image-banner.name",
