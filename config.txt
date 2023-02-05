@@ -36,3 +36,23 @@ To write down any data point added you can go to profile.liquid or theme.liquid 
 {{settings.test_data}}
 
 It is also saved in settings_data.json
+
+
+https://laravel-mix.com/docs/6.0/installation
+
+npm init -y
+
+npm install laravel-mix --save-dev
+
+add src and js and app.js and scss and app.scss
+
+also add let mix = require('laravel-mix');
+
+mix.js('src/app.js', 'dist').setPublicPath('dist');
+
+added an alert to app.js - testing purposes
+
+npx mix
+
+This basically makes the local variables at src "global" as its a bundle and it goes to the assets file
+
