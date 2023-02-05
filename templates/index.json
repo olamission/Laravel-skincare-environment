@@ -20,6 +20,7 @@
         "22d2a88f-c5fc-4b8b-9000-ae437efc6cc0": {
           "type": "image_picker",
           "settings": {
+            "image_award": "shopify:\/\/shop_images\/beauty_award_stamp.jpg",
             "image_overlay_opacity": 0,
             "image_height": "small",
             "adapt_height_first_image": false,
