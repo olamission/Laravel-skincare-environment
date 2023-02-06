@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Skin Care brand example™",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text": {
@@ -15,6 +15,17 @@
           "settings": {
             "text": "Voted for beauty shortlist awards 2020",
             "text_style": "body"
+          }
+        },
+        "0446f820-5e50-44bb-9b69-749d169c4eb2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "All Products",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         },
         "22d2a88f-c5fc-4b8b-9000-ae437efc6cc0": {
@@ -37,6 +48,7 @@
       "block_order": [
         "heading",
         "text",
+        "0446f820-5e50-44bb-9b69-749d169c4eb2",
         "22d2a88f-c5fc-4b8b-9000-ae437efc6cc0"
       ],
       "settings": {
@@ -44,9 +56,9 @@
         "image_overlay_opacity": 70,
         "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "bottom-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
