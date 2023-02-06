@@ -105,7 +105,11 @@
               <a {% if block.settings.button_link_2 == blank %}role="link"aria-disabled="true"{% else %}href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</a>
             {%- endif -%}
             {%- when 'image_picker' -%}
+<<<<<<< HEAD
             <img src="{{ block.settings.image_award | img_url: border-radius: 50% }}" alt="profile image">
+=======
+            <img src="{{ block.settings.image_award | img_url: border-radius: 20 }}" alt="profile image">
+>>>>>>> e252bd2a5617b5a201547735ef1cf727b79536fb
           </div>
         {%- endcase -%}
       {%- endfor -%}
