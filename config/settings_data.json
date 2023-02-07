@@ -130,7 +130,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "33% OFF + FREE SHIPPING (First shop)",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
@@ -147,7 +147,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify:\/\/shop_images\/logo_5ea5acb6-3939-46b1-baf6-7fb66efc568b.jpg",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
