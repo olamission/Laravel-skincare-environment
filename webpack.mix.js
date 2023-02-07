@@ -1,11 +1,10 @@
-let mix = require('laravel-mix');
+const mix = require('laravel-mix');
 
-mix.js('src/js/app.js', 'assets').setPublicPath('assets');
-
+mix.js('src/js/app.js', 'assets').postCss('src/css/app.css', 'assets');
 /*
 const mix = require('laravel-mix');
 mix.js('src/app.js','assets')
-    .sass('src.app.scss','assets')
+    .sass('src/scss/app.scss','assets')
     .setPublicPath('assets');
 */
 
