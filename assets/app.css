@@ -38,3 +38,14 @@
 .multicolumn .button {
     margin-top: 16rem;
 }*/
+
+.newsletter-form__button{
+  left: 80%;
+  top: 1%;
+}
+.newsletter-form__button:not(:focus-visible):not(.focused) {
+  background-color: #f8a379
+}
+.newsletter-form__field-wrapper .field__input {
+  background-color: #f8798f;
+}
