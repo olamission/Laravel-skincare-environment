@@ -44,7 +44,7 @@
   top: 1%;
 }
 .newsletter-form__button:not(:focus-visible):not(.focused) {
-  background-color: #f8a379
+  background-color: coral!important;
 }
 .newsletter-form__field-wrapper .field__input {
   background-color: #f8798f;
