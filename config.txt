@@ -64,3 +64,10 @@ This way the app knows your using app.css
 I have added btn-three to add animation to the buttons this includes files like image banner , image with text , featured product , multicolomn and email signup
 
 ensured purchase now button is visible by adding a margin to it , this is for multicolumn
+
+//added this to prevent cropping of images
+  @media screen and (max-width: 749px) {
+    .image-with-text__media--small {
+      height: 22rem !important;
+    }
+  }
