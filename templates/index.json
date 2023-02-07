@@ -246,7 +246,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/subimg_2.png",
             "title": "Affordable",
-            "text": "<p>1 capsule weekly is enough to boost vitamin D levels. Only costs 3.99 per container and can last months with 90 capsules.<\/p>",
+            "text": "<p>1 capsule weekly is enough to boost vitamin D levels. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +265,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "Purchase Now",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
