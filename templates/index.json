@@ -225,8 +225,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/sub_img1_birdeye.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Bone health",
+            "text": "<p>high dose vitamin D to build strong bones<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -234,8 +234,9 @@
         "template--17921275035958__75c96fbc-ea16-410c-ad29-6f4eec0041e2-1675742565ab198f6b-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/logo.jpg",
+            "title": "Improves immune system",
+            "text": "<p>Helps improve autoimmune and allergy conditions<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -243,8 +244,9 @@
         "template--17921275035958__75c96fbc-ea16-410c-ad29-6f4eec0041e2-1675742565ab198f6b-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/subimg_2.png",
+            "title": "Affordable",
+            "text": "<p>1 capsule weekly is enough to boost vitamin D levels. Only costs 3.99 per container and can last months with 90 capsules.<\/p>",
             "link_label": "",
             "link": ""
           }
