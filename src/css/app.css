@@ -34,7 +34,7 @@
     opacity: 1;
     transform: scale(1,1);
   }
-  @media screen and (min-width: 750px)
+/* @media screen and (min-width: 750px)
 .multicolumn .button {
     margin-top: 16rem;
-}
+}*/
