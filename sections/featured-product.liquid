@@ -344,7 +344,7 @@
                           <button
                             type="submit"
                             name="add"
-                            class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+                            class="btn-three product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
                             {% if product.selected_or_first_available_variant.available == false %}
                               disabled
                             {% endif %}
@@ -381,7 +381,7 @@
                         <button
                           type="submit"
                           name="add"
-                          class="product-form__submit button button--full-width button--primary"
+                          class="btn-three product-form__submit button button--full-width button--primary"
                           disabled
                         >
                           {{ 'products.product.sold_out' | t }}

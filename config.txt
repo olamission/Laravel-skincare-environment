@@ -56,3 +56,11 @@ npx mix
 
 This basically makes the local variables at src "global" as its a bundle and it goes to the assets file
 
+I understand laravel better so you can create a css file and upload it to the assets folder.
+go to webpack.mix.js
+do npx mix
+To actually add it to the liquid system go to theme.liquid into the -css- section then do   {{ 'app.css' | asset_url | stylesheet_tag }}
+This way the app knows your using app.css
+I have added btn-three to add animation to the buttons this includes files like image banner , image with text , featured product , multicolomn and email signup
+
+ensured purchase now button is visible by adding a margin to it , this is for multicolumn

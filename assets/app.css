@@ -1,4 +1,5 @@
 .btn-three {
+    color: #FFF;
     transition: all 0.5s;
     position: relative;
   }
@@ -34,3 +35,7 @@
     opacity: 1;
     transform: scale(1,1);
   }
+  @media screen and (min-width: 750px)
+.multicolumn .button {
+    margin-top: 16rem;
+}
