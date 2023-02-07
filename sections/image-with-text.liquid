@@ -7,7 +7,12 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
     px;
   }
-
+  //
+  @media screen and (max-width: 749px) {
+    .image-with-text__media--small {
+      height: 22rem !important;
+    }
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}
