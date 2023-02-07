@@ -6,8 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Top 100 skincare brand",
-            "heading_size": "h1"
+            "heading": "Skin Care brand example™",
+            "heading_size": "h2"
           }
         },
         "text": {
@@ -15,6 +15,17 @@
           "settings": {
             "text": "Voted for beauty shortlist awards 2020",
             "text_style": "body"
+          }
+        },
+        "0446f820-5e50-44bb-9b69-749d169c4eb2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "All Products",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         },
         "22d2a88f-c5fc-4b8b-9000-ae437efc6cc0": {
@@ -37,6 +48,7 @@
       "block_order": [
         "heading",
         "text",
+        "0446f820-5e50-44bb-9b69-749d169c4eb2",
         "22d2a88f-c5fc-4b8b-9000-ae437efc6cc0"
       ],
       "settings": {
@@ -44,17 +56,227 @@
         "image_overlay_opacity": 70,
         "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "bottom-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "c50ddc08-8bc6-437d-828d-cf4dacd758a3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17921275035958__c50ddc08-8bc6-437d-828d-cf4dacd758a3-1675654379ad87ba5d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Watermelon Shampoo",
+            "heading_size": "h1"
+          }
+        },
+        "template--17921275035958__c50ddc08-8bc6-437d-828d-cf4dacd758a3-1675654379ad87ba5d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ shop.brand.short_description }} 3 in one  hair treatment Watermelon hair treatment.<\/p><p>It can be used as a hair treatment , hair rinse or conditioner<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--17921275035958__c50ddc08-8bc6-437d-828d-cf4dacd758a3-1675654379ad87ba5d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy now",
+            "button_link": "shopify:\/\/products\/watermelon-shampoo-company-y"
+          }
+        }
+      },
+      "block_order": [
+        "template--17921275035958__c50ddc08-8bc6-437d-828d-cf4dacd758a3-1675654379ad87ba5d-0",
+        "template--17921275035958__c50ddc08-8bc6-437d-828d-cf4dacd758a3-1675654379ad87ba5d-1",
+        "template--17921275035958__c50ddc08-8bc6-437d-828d-cf4dacd758a3-1675654379ad87ba5d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/watermelonShampoo.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "931c7d78-6419-4812-be65-1bac67161aef": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17921275035958__931c7d78-6419-4812-be65-1bac67161aef-1675654379ad87ba5d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cocoa Butter",
+            "heading_size": "h1"
+          }
+        },
+        "template--17921275035958__931c7d78-6419-4812-be65-1bac67161aef-1675654379ad87ba5d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ shop.brand.short_description }}<\/p><p><strong>Product Description <\/strong><\/p><p>Heal Soften and smooth dry skin with Cocoa butter for dry skin<\/p><p> crafted with intensively moisterizing cocoa butter and vitamin E.<\/p><p><\/p><p> <\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--17921275035958__931c7d78-6419-4812-be65-1bac67161aef-1675654379ad87ba5d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy now",
+            "button_link": "shopify:\/\/products\/cocoa-butter-company-x"
+          }
+        }
+      },
+      "block_order": [
+        "template--17921275035958__931c7d78-6419-4812-be65-1bac67161aef-1675654379ad87ba5d-0",
+        "template--17921275035958__931c7d78-6419-4812-be65-1bac67161aef-1675654379ad87ba5d-1",
+        "template--17921275035958__931c7d78-6419-4812-be65-1bac67161aef-1675654379ad87ba5d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cocoaButter.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e9c3c4ec-4da5-481c-849a-f31eeac5fed8": {
+      "type": "featured-product",
+      "blocks": {
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-0",
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-1",
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-2",
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-3",
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-4",
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-5",
+        "template--17921275035958__e9c3c4ec-4da5-481c-849a-f31eeac5fed8-1675657033f2530226-6"
+      ],
+      "settings": {
+        "product": "test-product",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "75c96fbc-ea16-410c-ad29-6f4eec0041e2": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17921275035958__75c96fbc-ea16-410c-ad29-6f4eec0041e2-1675742565ab198f6b-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17921275035958__75c96fbc-ea16-410c-ad29-6f4eec0041e2-1675742565ab198f6b-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17921275035958__75c96fbc-ea16-410c-ad29-6f4eec0041e2-1675742565ab198f6b-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17921275035958__75c96fbc-ea16-410c-ad29-6f4eec0041e2-1675742565ab198f6b-0",
+        "template--17921275035958__75c96fbc-ea16-410c-ad29-6f4eec0041e2-1675742565ab198f6b-1",
+        "template--17921275035958__75c96fbc-ea16-410c-ad29-6f4eec0041e2-1675742565ab198f6b-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "c50ddc08-8bc6-437d-828d-cf4dacd758a3",
+    "931c7d78-6419-4812-be65-1bac67161aef",
+    "e9c3c4ec-4da5-481c-849a-f31eeac5fed8",
+    "75c96fbc-ea16-410c-ad29-6f4eec0041e2"
   ]
 }
