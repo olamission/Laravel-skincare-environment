@@ -7,10 +7,6 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link
-      href="{{ app.css | asset_url }}"
-      rel="stylesheet"
-      type="text/css">
-    <link
       rel="preconnect"
       href="https://cdn.shopify.com"
       crossorigin>
@@ -397,9 +393,10 @@
         }
       }
     {% endstyle %}
-
+    <!--------------------------------CSS--------------------->
     {{ 'base.css' | asset_url | stylesheet_tag }}
-
+    {{ 'app.css' | asset_url | stylesheet_tag }}
+    <!-- added app.css to ensure btns look better -->
     {%- unless settings.type_body_font.system? -%}
       <link
         rel="preload"
@@ -424,7 +421,7 @@
         media="print"
         onload="this.media='all'">
     {%- endif -%}
-
+    <!-----------------------JS------------------------------------>
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       if (Shopify.designMode) {
