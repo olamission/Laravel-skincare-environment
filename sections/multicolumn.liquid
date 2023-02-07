@@ -104,7 +104,7 @@
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
-                  <a class="btn-three multicolumnBtn link animate-arrow" {% if block.settings.link == blank %}role="link"aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
+                  <a class="link animate-arrow" {% if block.settings.link == blank %}role="link"aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
                   </a>
                 {%- endif -%}
               </div>
@@ -139,7 +139,7 @@
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
         <a
-          class="button button--primary"
+          class="btn-three multicolumnBtn button button--primary"
           {% if section.settings.button_link == blank %}
           role="link"
           aria-disabled="true"
