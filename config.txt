@@ -67,7 +67,7 @@ ensured purchase now button is visible by adding a margin to it , this is for mu
 
 //added this to prevent cropping of images
   @media screen and (max-width: 749px) {
-    .image-with-text__media--small {
+    .image-with-text__media--large {
       height: 22rem !important;
     }
   }
